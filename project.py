@@ -1,20 +1,16 @@
-import requests
-from tabulate import tabulate
-from functions import få_handling, legge_til, fjern, regnut_t
-
-handleliste = []
+from functions import få_handling, legge_til, fjern, regnut_t, se_liste
 
 
 def main():
     print("\nVelkommen til Handlelisten! | Søk etter norske produkter ")
-
+    handleliste = []
     while True:
         handling = få_handling()
 
         if handling == "L":
-            legge_til()
+            legge_til(handleliste)
         elif handling == "S":
-            se_liste()
+            se_liste(handleliste)
         elif handling == "F":
             print(fjern(handleliste))
         elif handling == "T":
