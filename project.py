@@ -1,6 +1,6 @@
 import requests
 from tabulate import tabulate
-
+from functions import få_handling, legge_til, fjern, regnut_t
 
 handleliste = []
 
