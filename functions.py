@@ -1,3 +1,6 @@
+from tabulate import tabulate
+import requests
+
 
 def få_handling():
     instruksjoner = [
@@ -21,7 +24,7 @@ def få_handling():
             pass
 
 
-def legge_til():
+def legge_til(handleliste):
     while True:
         try:
             item = input("\nHva vil du søke etter?: ").lower().strip()
@@ -78,7 +81,7 @@ def legge_til():
         legge_til = ja_nei("Ønsker du å legge til noen flere av disse produktene? ")
 
 
-def se_liste():
+def se_liste(handleliste):
     if handleliste:
         print("\nHer er din handleliste!")
         print(tabulate(handleliste, headers="keys", tablefmt="heavy_grid"))
