@@ -122,7 +122,7 @@ def få_tall():
     while True:
         try:
             x = int(input("Hvilket nummer ønsker du å legge til? "))
-            if x >= 1 and x <= 10:
+            if x >= 1 and x <= 20:
                 return x
             else:
                 print("\nNummeret er nødt til å være mellom 1-10")
