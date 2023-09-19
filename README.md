@@ -1,7 +1,7 @@
 # Handlelisten
 A command-line interface shopping list created using Python
 
-[Video Demo]("""""")
+[Video Demo](https://youtu.be/79kIbIrIQJ0)
 
 Description: This program is a shopping list which is able to add Norwegian procucts using [Kassalapp](https://kassal.app/api) API. The program has the ability to search and add products to the shopping list, view the shopping list, calculate the total price for the shopping list and remove products from the shopping list.
 
