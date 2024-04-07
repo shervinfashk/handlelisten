@@ -31,7 +31,7 @@ def legge_til(handleliste):
             empty = []
 
             headers = {
-                "Authorization": "Bearer Q2cQT9h4N5quT5UfIQFkqxSIUDHZG6WEPzwzEqxz"
+                "Authorization": ""
             }
 
             params = {
